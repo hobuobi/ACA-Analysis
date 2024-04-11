@@ -2,7 +2,6 @@ install.packages(c("haven","dplyr","tidyverse"))
 library(haven)
 library(dplyr)
 library(tidyverse)
-setwd("/Users/hobuobi/downloads/")
 data <- read_dta("aca_data_march_cps.dta")
 ageSeries <- summarize(
   select(
